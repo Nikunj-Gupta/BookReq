@@ -8,10 +8,12 @@ This is a Book Requesting System. It is presently made keeping IIITB as an insti
 
 
 ### Usage
+
 * Step 1: You need a hosting server to launch the server files. I used Apache Server but Tomcat can be used too. Just launch all the php files from `<proj>` folder on your server. (Note: You could use a local host server too - like, *XAMPP*)
 * Developer Mode:
     - Use android studio to open the project.
     - Sync the gradle.
+    - The app has used Google's github repository volley; and so you need to download it and learn to sync it in the app. Follow steps as mention [here][volleyinstall]. Refer [here][androidtuts] for an implementation example.
     - Note: Check out for *volley*.
 * App mode
     - Go to `<Demo2/app/build/outputs/apk>` and copy `<app-debug.apk>` in your android mobile phone. This will install the android application in your phone and **BAM - Ready to use!!!**  
@@ -39,4 +41,6 @@ Want to contribute? Great!
    [xampp]: <https://www.apachefriends.org/index.html>
    [apache]: <https://www.apache.org/>
    [volley]: <https://developer.android.com/training/volley/index.html>
+   [volleyinstall]: <https://developer.android.com/training/volley/index.html>
+   [androidtuts]: <https://www.androidtutorialpoint.com/networking/android-volley-tutorial/>
    [profskc]: <http://www.iiitb.ac.in/faculty_page.php?name=SujitKumarChakrabarti>
